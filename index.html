@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form assignmen</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- header of the from -->
+    <div class="container">
+    <header class="head">
+    
+      <h1>Apply For Admission</h1>
+      <p>To join RHEMA you have to fill in your details in the form below</p>
+      <h2>RHEMA MENA</h2>
+    </header>
+    <!-- form1 started here -->
+       <form>
+        <div class="move">
+             <label for="change" class="label">
+             You are applying to join RHEMA lebanon</label>
+             <!-- the label helps users understand the purpose -->
+             <!-- for is the value of the property  -->
+             <img src="https://previews.123rf.com/images/dualororua/dualororua1707/dualororua170700237/82718617-happy-school-children-in-front-of-school-building.jpg" alt="flage" width="40px" height="30px">
+    
+             <select name="change" id="change" class="select" >
+                 <option value="">Click to select option</option>
+                 <option value="no">NO</option>
+                 <option value="yes">YES</option>
+                 <!-- the values need to be same value just to tell html all are the same -->
+             </select>
+        </div>
+<!-- first fuildset -->
+      
+          <fieldset>
+            <!-- legend is used to groub the fuildset -->
+            
+         <legend >Select Academic Session:</legend>
+         <label for="Academic"></label>
+          <select name="Academic" id="Academic" class="input">
+            <option value="Academic">select</option>
+            <option value="Academic">5 years</option>
+            <option value="Academic">6 years</option>
+          </select>
+         </fieldset>
+<!-- seconf fildset -->
+         <fieldset >
+          <legend >Where  Will You Attend Your Classes?</legend>
+          <label for="Attend"></label>
+          <select name="Attend"  id="Attend" class="input">
+            <option value="Attend">select</option>
+            <option value="Attend">online</option>
+            <option value="Attend">offline</option>
+          </select>
+         </fieldset>
+      </section>
+
+<!-- second section -->
+<section>
+          <h3>Personal Details:</h3>
+        <fieldset >
+          <legend>Contant Address:</legend>
+          <label for="address"></label>
+          <input  type="text" name="address" id="address" placeholder="Enter Address" class="input"/>
+        </fieldset>
+
+        <fieldset>
+          <legend>Date Of Birth:</legend>
+          <label for="Birth"></label>
+          <input class="input"  type="date" name="Birth" id="Birth" placeholder="Date Of Birth"/>
+        </fieldset>
+
+        <fieldset>
+             <legend>Nationality:</legend>
+             <label for="Nationality"></label>
+           <select class="input" name="Nationality" id="Nationality">
+             <option value="Nationality">select</option>
+             <option value="Nationality">Nigeria</option>
+             <option value="Nationality">USA</option>
+             <option value="Nationality">EUROPE</option>
+            </select>
+        </fieldset>
+
+
+        <fieldset >
+            <legend>Marital Status:</legend>
+            <label for="status"></label>
+          <select class="input"  name="status" id="status">
+            <option value="status">select</option>
+            <option value="status">married</option>
+            <option value="status">single</option>
+            <option value="status">others</option>
+          </select>
+        </fieldset>
+</section>
+<!-- third section -->
+<section>
+         <h3>Christain life:</h3>
+
+       <fieldset>
+            <legend>Church Name:</legend>
+            <label for="church"></label>
+              <input class="input" type="text" name="church" id="church" placeholder="Your church Name:"/>
+       </fieldset>
+</section>
+      
+        <!-- section 4 -->
+        <section>
+          <h3>
+            Are You Born Again (saved) as stated in Roman
+            <a href="./BIBLE.C/ROMAN.22/RO.C">Roman 10:8-12</a>?
+          </h3>
+
+          <label for="bon again"> Yes <input  type="radio" name="bon again" id="bon again"/></label>
+          <label for="bon again"> No <input type="radio" name="bon again" id="bon again" /></label>
+        
+
+
+        <fieldset>
+          <legend>How Long have you been born again?:</legend>
+          <label for="how long"></label>
+          <input  class="input"  type="text" name="how long" id="how long" placeholder="How Long?"/>
+      </fieldset>
+</section>
+      <!-- last section -->
+      <secton>
+          <h3>
+            Are You batptized in the Holy Spirit with the evidence of speaking
+            in tongues as in <a href="./BIBLE.C/ROMAN.22/AC.C">Acts 22-4</a>?
+          </h3>
+          <label for="bon"> Yes <input type="radio" name="bon" id="bon"/></label>
+          <label for="bon"> No <input type="radio" name="bon" id="bon"/></label>
+      
+      
+        <button>APPLY</button>
+        <p><i>You will have to make a payment of $20 USD to apply for admission into RHEMA</i></p>
+        </secton>
+
+    <p>GO BACK TO MY CV <a href="/Basic Tutorial 1/CVFOLDER/index.html">click here</a></p> 
+    
+    </form>
+    </div>
+  </body>
+</html>
